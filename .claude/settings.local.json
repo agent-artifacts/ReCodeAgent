@@ -1,0 +1,35 @@
+{
+  "env": {
+    "CLAUDE_CODE_USE_BEDROCK": "1",
+    "ANTHROPIC_MODEL": "global.anthropic.claude-sonnet-4-5-20250929-v1:0"
+  },
+  "permissions": {
+    "allow": [
+      "Task",
+      "Bash",
+      "Glob",
+      "Grep",
+      "ExitPlanMode",
+      "Read",
+      "Edit",
+      "Write",
+      "NotebookEdit",
+      "WebFetch",
+      "TodoWrite",
+      "BashOutput",
+      "KillShell",
+      "SlashCommand",
+      "ListMcpResourcesTool",
+      "ReadMcpResourceTool",
+      "mcp__rust-language-server",
+      "mcp__c-language-server",
+      "mcp__python-language-server",
+      "mcp__javascript-language-server",
+      "mcp__java-language-server",
+      "mcp__go-language-server",
+      "mcp__project-analyzer",
+      "mcp__crust-test-runner"
+    ],
+    "deny": []
+  }
+}
